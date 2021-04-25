@@ -1,2 +1,0 @@
-# HiddenObjects
-Materials and shaders to make objects invisible behind others or only visible behind others. The shaders are adapted from the ones found on [this tutorial](https://www.ronja-tutorials.com/2018/08/18/stencil-buffers.html).
