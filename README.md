@@ -1,5 +1,5 @@
 # HiddenObjects
-Materials and shaders to make objects invisible behind others or make them only visible behind others using stencils in Unity. The shaders are adapted from the ones found on [this tutorial](https://www.ronja-tutorials.com/2018/08/18/stencil-buffers.html).
+Materials and shaders to make objects invisible behind others or make them only visible behind others using stencils in Unity. The shaders are adapted from [this tutorial](https://www.ronja-tutorials.com/2018/08/18/stencil-buffers.html).
 
 To use them just import the Unity package on your project. After that, drop the *Transparency Manager* prefab at the scene and add references to the objects you want to hide and to the one that hides them on the inspector. On startup the manager replaces the default standard shader by a custom one with stencil operations.
 
