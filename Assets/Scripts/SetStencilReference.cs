@@ -16,7 +16,6 @@ public class SetStencilReference : MonoBehaviour
     private Shader _hideObjects;
     private Shader _hiddenObject;
 
-    // Start is called before the first frame update
     void Start()
     {
         if(hideIf == HideOptions.Outside)
@@ -46,24 +45,5 @@ public class SetStencilReference : MonoBehaviour
                 objectsToHide[i].GetComponent<Renderer>().material.SetInt("_StencilRef", 3);
             }
         }
-
-        /*if (hideObjectsWall.GetComponent<Renderer>().material.HasInt("_StencilRef"))
-        {
-            
-        }*/
-
-        /*for (int i = 0; i < objectsToHide.Length; i++)
-        {
-            if (objectsToHide[i].GetComponent<Renderer>().material.HasInt("_StencilRef"))
-            {                
-                objectsToHide[i].GetComponent<Renderer>().material.SetInt("_StencilRef", 3);
-            }
-        }*/
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
